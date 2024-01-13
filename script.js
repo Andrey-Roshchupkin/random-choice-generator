@@ -43,7 +43,7 @@ function randomize() {
     const randomChoice =
       choicesDiv.children[randomChoiceIndex].firstChild.textContent;
 
-    resultElement.innerHTML = `Random Value: ${randomValue}, Random Choice: ${randomChoice}`;
+    resultElement.innerHTML = `Random value: ${randomValue}\nRandom choice: ${randomChoice}`;
   } else {
     resultElement.innerHTML =
       "Invalid input. Please enter numeric values for Min Value, Max Value, and Step.";

@@ -90,3 +90,9 @@ button {
 .randomize-button button:hover {
   background-color: #0d8bf3;
 }
+
+.result {
+  padding: 15px;
+  font-weight: 700;
+  white-space: pre-line;
+}
