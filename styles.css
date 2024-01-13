@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group,
+.button-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+.add-button,
+button {
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.choice {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+.choice-text {
+  margin-right: 5px;
+}
+
+.delete-button {
+  background-color: #ffc400;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  padding: 6px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #ffc400;
+}
+
+.button-group span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.randomize-button button {
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.randomize-button button:hover {
+  background-color: #0d8bf3;
+}
